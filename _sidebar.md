@@ -1,5 +1,3 @@
 - [Home](/)
 - Cogs
-    - [Main](/cogs/main.md)
     - [Clash Royale](/cogs/cr.md)
-- [Test](/test.md)
