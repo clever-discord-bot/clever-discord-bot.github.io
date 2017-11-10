@@ -1,3 +1,4 @@
 - [Home](/)
 - Cogs
     - [Clash Royale](/cogs/cr.md)
+    - [Misc](/cogs/misc.md)

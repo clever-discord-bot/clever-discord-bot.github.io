@@ -109,5 +109,40 @@ Clash Royale related commands
     * `random|rand`
       >Shows a 100% randomly generated deck.
 
+    * `open|view|get|load <name>`
+        >Opens a saved deck with the given name.  
+        To save a deck, use the next listed commands.
+
+    * `list|all`
+      >Lists all saved decks that you can `open`
+
+    * `cards`
+      >Lists all the cards, and their aliases, that you can use for creating and showing decks.  
+      If you are unsure, `lowercase-card-name-with-hyphens` always works.  
+      (Aliases can be added by people with the overwatch role  
+      using `add-alias <alias> <card>` and `remoe-alias <name>`)
+
     * `save|new <name> <cards*8>`
-        >Saves a deck made from 8 cards, to the name.
+      >Saves a deck made from 8 cards, to the name.
+
+    * `isave|inew`
+      >Interactively saves a deck, polling you for the name and cards.
+
+    * `saveurl|newurl <name> <url>`
+      >Saves a deck made from the clash royale deck share link, to the name.
+
+    * `edit|change <name> <cards*8>`
+      >Edits a deck with the name to contain the 8 new cards.  
+      You must own this deck, by creating it in the first place.
+
+    * `iedit|ichange`
+      >Interactively edits a deck, polling you for the name and cards.  
+      You must own this deck.
+
+    * `editurl|changeurl <name> <url>`
+      >Edits a deck with the name to contain cards from the clash royale share link.  
+      You must own this deck.
+
+    * `delete|del <name>`
+      >Deletes a deck with the given name.  
+      You must own this deck.
